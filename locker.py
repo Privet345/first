@@ -5,7 +5,7 @@ from time import sleep
 
 def callback(event):
     global k, entry
-    if entry.get() == "privet":
+    if entry.get() == "12345":
         k = True
 
 def on_closing():
